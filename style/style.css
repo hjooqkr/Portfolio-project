@@ -1,10 +1,19 @@
-h1 {
-  background-color: pink;
-  font-family: "Quicksand", sans-serif;
+.hero {
+  text-align: center;
 }
+h1 {
+  font-family: "Paytone One", sans-serif;
+  letter-spacing: 1px;
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: "Leckerli One", cursive;
+}
+
 p {
-  font-family: "Abril Fatface", cursive;
-  font-size: 36px;
+  font-family: "Poppins", sans-serif;
 }
 .fa-instagram {
   font-size: 50px;
