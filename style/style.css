@@ -1,19 +1,31 @@
+:root {
+  --primary-color: #ffeaf4;
+  --heading-font-family: "Paytone One", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+  --defalut-font-color: #2d2c2d;
+}
+
 .hero {
   text-align: center;
+  padding: 120px;
+  color: var(--defalut-font-color);
 }
 h1 {
-  font-family: "Paytone One", sans-serif;
+  font-family: var(--heading-font-family);
   letter-spacing: 1px;
   font-size: 96px;
+  margin-top: 25px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
   font-family: "Leckerli One", cursive;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
+  font-size: 30px;
+  margin-top: 20px;
 }
 .fa-instagram {
   font-size: 50px;
