@@ -6,7 +6,8 @@
 }
 
 .hero,
-.about-hero {
+.about-hero,
+.work-hero {
   text-align: center;
   padding: 90px 0 50px;
   background-color: var(--primary-color);
