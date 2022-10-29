@@ -14,6 +14,21 @@
   background-color: var(--primary-color);
   color: var(--defalut-font-color);
 }
+nav {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  margin-right: 50px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
 
 h1 {
   font-family: var(--heading-font-family);
@@ -80,6 +95,12 @@ p .workcontent {
   margin-top: 100px;
 }
 @media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-right: 0;
+  }
   h1 {
     font-size: 52px;
   }
