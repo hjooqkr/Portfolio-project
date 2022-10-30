@@ -10,7 +10,7 @@
 .work-hero,
 .contact-hero {
   text-align: center;
-  padding: 90px 0 50px;
+  padding: 60px 0 50px;
   background-color: var(--primary-color);
   color: var(--defalut-font-color);
 }
@@ -47,9 +47,24 @@ h3 {
   font-size: 30px;
   margin-top: 30px;
 }
-footer {
-  margin: 40px 0;
+h4 {
+  font-size: 40px;
+  font-family: var(--heading-font-family);
 }
+footer {
+  margin: 80px auto 40px;
+}
+footer .contact-box {
+  background-color: var(--primary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
 footer .email-link {
   font-size: 24px;
   color: #666464;
@@ -81,7 +96,9 @@ footer .social-link a:hover {
   color: var(--primary-color);
   background-color: var(--defalut-font-color);
 }
-
+footer .text-center {
+  font-size: 14px;
+}
 .homeimg {
   padding: 0 20px;
 }
@@ -121,6 +138,7 @@ p .workcontent {
 .contact-src {
   margin-top: 100px;
 }
+
 @media (max-width: 768px) {
   nav {
     display: flex;
@@ -133,6 +151,9 @@ p .workcontent {
   }
   h3 {
     font-size: 22px;
+  }
+  h4 {
+    font-size: 24px;
   }
   a {
     font-size: 20px;
@@ -154,5 +175,12 @@ p .workcontent {
   }
   .workimg {
     max-width: 450px;
+  }
+  footer .contact-box {
+    padding: 20px;
+  }
+  footer .btn {
+    font-size: 14px;
+    margin: 0;
   }
 }
