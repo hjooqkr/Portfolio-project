@@ -47,12 +47,39 @@ h3 {
   font-size: 30px;
   margin-top: 30px;
 }
-.fa-instagram,
-.fa-envelope {
-  font-size: 50px;
+footer {
+  margin: 40px 0;
+}
+footer .email-link {
+  font-size: 24px;
   color: #666464;
-  margin-top: 25px;
+  text-align: center;
   padding: 15px;
+  margin-bottom: 10px;
+}
+footer .email-link a {
+  transition: all 200ms ease-in-out;
+  padding: 5px 8px;
+}
+footer .email-link a:hover {
+  color: var(--primary-color);
+  background-color: var(--defalut-font-color);
+  border-radius: 5px;
+}
+footer .social-link {
+  text-align: center;
+}
+footer .social-link a {
+  margin: 0 15px;
+  font-size: 18px;
+  padding: 10px 13px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
+}
+footer .social-link a:hover {
+  color: var(--primary-color);
+  background-color: var(--defalut-font-color);
 }
 
 .homeimg {
